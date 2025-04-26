@@ -1,0 +1,69 @@
+/* Basic styles for the registration form */
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #218838; /* Darker green */
+}
+
+.form-footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.form-footer a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
